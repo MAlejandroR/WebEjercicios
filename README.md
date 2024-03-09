@@ -1,66 +1,93 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Nombre del Proyecto
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Delpliegue de ejmplos para realizar ejercicios prácticos
 
-## About Laravel
+Se aportan enunciados, ejecucion y con la posibilidad de aportar  posibles soluciones
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Existe una opción de administración para subier, organizar y administrar cada ejercicio de forma sencilla
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Está basado en una estrucutra de ficheros dónde se ubicarán los ejericicos (enunciado, ejecución y soluciones)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Comenzando
 
-## Learning Laravel
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Prerrequisitos
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Lo que necesitas para instalar el software y cómo instalarlo:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+[//]: # (TODO) Pediente
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Instalación
 
-### Premium Partners
+[//]: # (TODO) Pediente
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+git clone https://github.com/tu_usuario/tu_proyecto.git
+cd tu_proyecto
+composer install
 
-## Contributing
+r
+Copy code
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Uso
 
-## Code of Conduct
+Instrucciones sobre cómo utilizar la aplicación, incluyendo ejemplos de código si es aplicable.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+php artisan serve
 
-## Security Vulnerabilities
+csharp
+Copy code
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Accede a `http://localhost:8000` en tu navegador para ver la aplicación en acción.
 
-## License
+## Ejecutando las pruebas
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Explica cómo ejecutar las pruebas automatizadas para este sistema.
+
+php artisan test
+
+markdown
+Copy code
+
+## Despliegue
+
+Notas adicionales sobre cómo desplegar esto en un sistema en vivo.
+
+## Construido con
+
+* [Laravel](https://laravel.com) - El framework web usado
+* [Vue.js](https://vuejs.org) - Front-end
+* [Tailwind CSS](https://tailwindcss.com) - Utilizado para el diseño
+
+## Contribuir
+
+Por favor, lee [CONTRIBUTING.md](https://github.com/tu_usuario/tu_proyecto/CONTRIBUTING.md) para detalles sobre nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+## Versionado
+
+Usamos [SemVer](http://semver.org/) para el versionado. Para las versiones disponibles, vea las [tags en este repositorio](https://github.com/tu_usuario/tu_proyecto/tags).
+
+## Autores
+
+* **Tu Nombre** - *Trabajo Inicial* - [tu_usuario](https://github.com/tu_usuario)
+
+Ver también la lista de [contribuyentes](https://github.com/tu_usuario/tu_proyecto/contributors) que participaron en este proyecto.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia XYZ - vea el archivo [LICENSE.md](LICENSE.md) para detalles.
+
+## Agradecimientos
+
+* Agradecimiento a quien corresponda.
+* Inspiración.
+* etc.
+
+# Paleta de colores
+![img.png](img.png)
+#469597
+#5BA199
+#BBC6C8
+#E5E3E4
+#DDBEAA
