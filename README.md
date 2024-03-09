@@ -14,14 +14,12 @@ Estas instrucciones te permitirán obtener una copia del proyecto en funcionamie
 
 ### Prerrequisitos
 
-Lo que necesitas para instalar el software y cómo instalarlo:
-
 [//]: # (TODO) Pediente
 
 
 ### Instalación
 
-[//]: # (TODO) Pediente
+[//]: # (TODO) Revisar
 
 ```
 git clone https://github.com/MAlejandroR/WebEjercicios.git
@@ -54,15 +52,14 @@ Copy code
 Accede a `http://localhost:8000` en tu navegador para ver la aplicación en acción.
 
 ## Ejecutando las pruebas
-
+[//]: # (TODO) Pediente
 Explica cómo ejecutar las pruebas automatizadas para este sistema.
 
 php artisan test
 
-markdown
-Copy code
 
 ## Despliegue
+[//]: # (TODO) Pediente
 
 Notas adicionales sobre cómo desplegar esto en un sistema en vivo.
 
@@ -70,7 +67,10 @@ Notas adicionales sobre cómo desplegar esto en un sistema en vivo.
 
 * [Laravel](https://laravel.com) - El framework web usado
 * [Vue.js](https://vuejs.org) - Front-end
+* [Innertia.js](https://inertia.com) - Front-end to Back-end
 * [Tailwind CSS](https://tailwindcss.com) - Utilizado para el diseño
+* [Daisyui de Tailwind CSS](https://daisyui.com) - Componentes de tailwind
+* [Docker](https://tailwindcss.com) - Para el despliegue de la base de datos
 
 ## Contribuir
 
@@ -82,7 +82,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para las versiones dispo
 
 ## Autores
 
-* **Tu Nombre** - *Trabajo Inicial* - [tu_usuario](https://github.com/tu_usuario)
+* **Manuel Alejandro Romero Miguel** - *Trabajo Inicial* - [tu_usuario](https://github.com/MAlejandroR)
 
 Ver también la lista de [contribuyentes](https://github.com/tu_usuario/tu_proyecto/contributors) que participaron en este proyecto.
 
@@ -92,9 +92,6 @@ Este proyecto está licenciado bajo la Licencia XYZ - vea el archivo [LICENSE.md
 
 ## Agradecimientos
 
-* Agradecimiento a quien corresponda.
-* Inspiración.
-* etc.
 
 # Paleta de colores
 ![img.png](img.png)
