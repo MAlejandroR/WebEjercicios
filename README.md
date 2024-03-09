@@ -23,13 +23,25 @@ Lo que necesitas para instalar el software y cómo instalarlo:
 
 [//]: # (TODO) Pediente
 
-git clone https://github.com/tu_usuario/tu_proyecto.git
+```
+git clone https://github.com/MAlejandroR/WebEjercicios.git
 cd tu_proyecto
 composer install
+npm install
 
-r
-Copy code
+```
+### Pueste en marcha en local
+Se usa docker para la base de datos
+Esta aplicacion está basada en Inertia, e implementada con componentes Vue
 
+[//]: # (TODO) Pediente
+
+```
+npm run dev
+docker compose up -d
+php artisan migrate:fresh --seed
+php artisan serve &
+```
 ## Uso
 
 Instrucciones sobre cómo utilizar la aplicación, incluyendo ejemplos de código si es aplicable.
